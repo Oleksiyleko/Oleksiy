@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Profile Card</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-white">
+    <main class="flex min-h-screen items-center justify-center px-6 py-12">
+      <section class="w-full max-w-md overflow-hidden rounded-3xl border border-white/10 bg-white/10 shadow-2xl shadow-emerald-500/10 backdrop-blur">
+        <div class="bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 px-8 py-10 text-slate-950">
+          <p class="text-sm font-bold uppercase tracking-[0.35em]">Player profile</p>
+          <h1 class="mt-4 text-4xl font-black">Andriy Shevchenko</h1>
+          <p class="mt-2 text-lg font-medium">Legendary Ukrainian striker</p>
+        </div>
+
+        <div class="px-8 py-8">
+          <div class="flex items-center gap-5">
+            <div class="flex h-24 w-24 items-center justify-center rounded-3xl bg-emerald-400 text-4xl font-black text-slate-950 shadow-lg shadow-emerald-400/20">
+              7
+            </div>
+            <div>
+              <p class="text-sm uppercase tracking-[0.25em] text-slate-400">Position</p>
+              <p class="mt-1 text-2xl font-bold">Forward</p>
+              <p class="mt-1 text-slate-300">Kyiv, Ukraine</p>
+            </div>
+          </div>
+
+          <dl class="mt-8 grid grid-cols-2 gap-4">
+            <div class="rounded-2xl bg-slate-900/70 p-4">
+              <dt class="text-sm text-slate-400">Clubs</dt>
+              <dd class="mt-1 font-semibold">Dynamo Kyiv, Milan, Chelsea</dd>
+            </div>
+            <div class="rounded-2xl bg-slate-900/70 p-4">
+              <dt class="text-sm text-slate-400">Ballon d'Or</dt>
+              <dd class="mt-1 text-2xl font-black text-emerald-300">2004</dd>
+            </div>
+            <div class="rounded-2xl bg-slate-900/70 p-4">
+              <dt class="text-sm text-slate-400">National team</dt>
+              <dd class="mt-1 font-semibold">Ukraine</dd>
+            </div>
+            <div class="rounded-2xl bg-slate-900/70 p-4">
+              <dt class="text-sm text-slate-400">Style</dt>
+              <dd class="mt-1 font-semibold">Fast, clinical, fearless</dd>
+            </div>
+          </dl>
+
+          <p class="mt-8 rounded-2xl border border-emerald-300/20 bg-emerald-300/10 p-5 text-slate-200">
+            A profile card inspired by one of Ukraine's most iconic footballers — built as a tiny Tailwind CSS demo.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
